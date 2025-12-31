@@ -1,6 +1,7 @@
 // server.js
 require('dotenv').config(); // Must be at the top
 // server.js
+const rateLimit = require("express-rate-limit");
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
